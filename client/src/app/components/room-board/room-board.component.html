@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-block">
+      <h4 class="card-title">Timer</h4>
+      <!-- <p class="card-text">{{URL}}</p> -->
+      <div class="timer">{{time | secondsToTime}}</div>
+      <div *ngIf="participantList">
+        <h4 class="card-title">Room Members</h4>
+        <div class="user" *ngFor="let id of participantIndex">
+          <span class="user-initial" [ngStyle]="{'background-color': participantList[id].color}">
+            {{participantList[id].name[0]}}
+          </span>
+          <span>{{participantList[id].name}}</span>
+        </div>
+      </div>
+      <app-chat-box></app-chat-box>
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+<div class="container" *ngIf="Problem">
+    <div class="row">
+        <div class="col-12 align">
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+          <div>
+              <h2>
+                {{Problem.id}}. {{Problem.name}}
+              </h2>
+              <p>
+                {{Problem.desc}}
+              </p>
+              <hr/>
+          </div>
+
+          <div>
+            <app-editor></app-editor>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <app-room-board></app-room-board>
+        </div>
+    </div>
+</div>

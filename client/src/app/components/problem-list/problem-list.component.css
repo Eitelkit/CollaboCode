@@ -1,0 +1,63 @@
+.align {
+  display: grid;
+}
+
+.align > * {
+  margin-left: 10px;
+  display: grid;
+  align-items: center;
+  color: #00CC99;
+}
+
+.difficulty {
+  min-width: 65px;
+  margin-right: 10px;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  color: #fbfdfa;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+.diff-easy {
+  background-color: #42ebf4;
+}
+
+.diff-medium {
+  background-color: #92cf5c;
+}
+
+.diff-hard {
+  background-color: #dd0d1e;
+}
+
+.diff-super {
+  background-color: #8d16e2;
+}
+
+.room-full {
+  background-color: #C7C7C7;
+  color: black;
+}
+
+.room {
+  background-color: #80d6ff;
+  border-radius:100px;
+  color: white;
+  font-weight: bolder;
+  width: 30px;
+  height: 30px;
+  padding-top: 2px;
+  margin-left: 1px;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-newroom {
+  display: inline-block;
+  padding: .3rem .5rem;
+  font-size: .9rem;
+}
