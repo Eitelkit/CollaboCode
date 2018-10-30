@@ -14,7 +14,7 @@ sh ./launcher.sh
 ```
 
 ## Skills:
-* Front-end: JavaScript, Angular2, Node.js, Express, RESTful API.
+* Front-end: JavaScript, Angular2, Node.js, Express, RESTful API
 * Back-end: Python, Flask, Redis, MongoDB, Docker, Nginx
 
 ## ScreenShots
