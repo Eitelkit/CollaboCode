@@ -18,7 +18,10 @@ Index:
 ![image](https://github.com/Eitelkit/CollaboCode/blob/master/CollaboCode_image/index.png)
 
 
-
+## Usage
+'''
+sh ./launcher.sh
+'''
 
 
 
